@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  opacity: 100%;
+}
+.background-mouse{
+
+  position: absolute;
+  background: radial-gradient(circle, #69543d 13%, #c1a991 56%, #f9e9da 100%);
+  box-shadow: 0 0 50px 10px #f2e3cf;
+  opacity: 0.5;
+  border-radius: 50%;
+  pointer-events: none;
+  left: -25px;
+  top: -25px;
+  width: 50px;
+  height: 50px;
+  border:none;
+}
+button {
+  background-color: white;
+  padding: 5px 10px;
+  border: white;
+}
+button:hover{
+  
+  background-color: #8a00da;
+  color: white;
+  cursor: pointer;
+  outline: black;
+  box-shadow: 10px 5px 5px rgb(29, 29, 29);
+}
